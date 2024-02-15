@@ -34,7 +34,7 @@ function generarNumeroSecreto() {
     let numeroGenerado = Math.floor(Math.random()*numeroMaximo)+1;
     //console.log(numeroGenerado);
     //console.log(listaNumerosSorteados);
-    if (listaNumerosSorteados.length == numeroMacimo) {
+    if (listaNumerosSorteados.length == numeroMaximo) {
         asignarTextoElemento('p', 'Ya se sortearon todos los números posibles')
     }else{
         if (listaNumerosSorteados.includes(numeroGenerado)) {
